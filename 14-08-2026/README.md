@@ -3,38 +3,98 @@
 ## Write an HTML document to create a webpage containing a table ( No table border, Add background color, Font color etc )
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html>
     <head>
-        <title>Simple Table</title>
+        <title>Shopping Website</title>
     </head>
 
-    <body>
-        <h1>Student Details</h1>
+    <body bgcolor="white">
+        <br />
+        <br />
 
-        <table bgcolor="lightblue">
+        <table align="center" width="100%" bgcolor="#eeeeee">
+            <!-- Header -->
             <tr>
-                <th>Name</th>
-                <th>Age</th>
-                <th>Course</th>
+                <td align="center">
+                    <h2>My Store</h2>
+                </td>
+                <td align="center" colspan="2">
+                    <input placeholder="Search items" />
+                </td>
+                <td align="center">
+                    <button type="button">Login</button>
+                    <button type="button">Signup</button>
+                </td>
             </tr>
+        </table>
 
+        <table align="center" width="100%" bgcolor="#eeeeee">
+            <!-- Products -->
             <tr>
-                <td>Soham</td>
-                <td>20</td>
-                <td>CSE</td>
-            </tr>
+                <td align="center" bgcolor="#f5f5f5">
+                    <img src="Images/Phone.avif" width="120" height="120" />
 
-            <tr>
-                <td>Rahul</td>
-                <td>21</td>
-                <td>ECE</td>
-            </tr>
+                    <br />
 
-            <tr>
-                <td>Ankit</td>
-                <td>20</td>
-                <td>IT</td>
+                    <b>Smartphone</b>
+
+                    <br />
+
+                    ₹24,999
+
+                    <br />
+
+                    <input type="button" value="Buy Now" />
+                </td>
+
+                <td align="center" bgcolor="#f5f5f5">
+                    <img src="Images/Headphone.jpg" width="120" height="120" />
+
+                    <br />
+
+                    <b>Headphones</b>
+
+                    <br />
+
+                    ₹2,499
+
+                    <br />
+
+                    <input type="button" value="Buy Now" />
+                </td>
+
+                <td align="center" bgcolor="#f5f5f5">
+                    <img src="Images/Watch.webp" width="120" height="120" />
+
+                    <br />
+
+                    <b>Smart Watch</b>
+
+                    <br />
+
+                    ₹3,999
+
+                    <br />
+
+                    <input type="button" value="Buy Now" />
+                </td>
+
+                <td align="center" bgcolor="#f5f5f5">
+                    <img src="Images/Shoes.avif" width="120" height="120" />
+
+                    <br />
+
+                    <b>Sports Shoes</b>
+
+                    <br />
+
+                    ₹1,999
+
+                    <br />
+
+                    <input type="button" value="Buy Now" />
+                </td>
             </tr>
         </table>
     </body>
