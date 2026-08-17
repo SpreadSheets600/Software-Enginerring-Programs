@@ -1,6 +1,6 @@
-# Java (OOPS) Lab Archive
+# SWE Lab Archive
 
-A maintained, Markdown-first record of Java (OOPS) laboratory work, commands, and reference material. Just the collection of practical work for Java Lab and exercises. Use this page as the starting point for the archive. It is also the repository README, so any update here appears on both GitHub and the published site.
+A maintained, Markdown-first record of SWE laboratory work, commands, and reference material. Just the collection of practical work for Software Engineering Lab and exercises. Use this page as the starting point for the archive. It is also the repository README, so any update here appears on both GitHub and the published site.
 
 ## Overview
 
