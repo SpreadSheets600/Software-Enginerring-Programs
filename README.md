@@ -10,6 +10,8 @@ A maintained, Markdown-first record of SWE laboratory work, commands, and refere
 | ---------- | ------------ | ---------------------------- |
 | 07-08-2026 | Experiment 1 | [Link](07-08-2026/README.md) |
 | 14-08-2026 | Experiment 2 | [Link](14-08-2026/README.md) |
+| 21-08-2026 | Experiment 3 | [Link](21-08-2026/README.md) |
+| 28-08-2026 | Experiment 4 | [Link](28-08-2026/README.md) |
 
 ## PDF Library
 
