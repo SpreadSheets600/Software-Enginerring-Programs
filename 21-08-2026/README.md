@@ -1,0 +1,292 @@
+# Experiment 3
+
+## Design a simple Registration form with following input - Name, Address, Mobile, Email-Id, Gender, Product Preferences, Username, Password, Confirm Password. Add functionalities by adding attributes - Fieldset, legend, ID, Name, value, placeholder, title, req.
+
+```html
+<html>
+    <head>
+        <title>E Commerce Website - Register</title>
+    </head>
+
+    <body>
+        <nav>
+            <table width="100%" border="0">
+                <tr>
+                    <td align="left">
+                        <a href="14-08-2026/14-08-2026.html"><h2>E Commerce Site</h2></a>
+                    </td>
+                    <td align="center">
+                        <input type="text" placeholder="Search For Items" />
+                    </td>
+                    <td align="right">
+                        <a href="21-08-2026-Login.html"
+                            ><input type="button" value="Login"
+                        /></a>
+                        <a href="21-08-2026-Register.html"
+                            ><input type="button" value="Register"
+                        /></a>
+                    </td>
+                </tr>
+            </table>
+        </nav>
+
+        <h2 align="center">Register</h2>
+
+        <div align="center">
+            <form>
+                <fieldset>
+                    <legend>Personal Information</legend>
+
+                    <table border="0" cellpadding="8" cellspacing="0">
+                        <tr>
+                            <td><label for="fname">First Name:</label></td>
+                            <td>
+                                <input
+                                    type="text"
+                                    id="fname"
+                                    name="fname"
+                                    placeholder="First Name"
+                                    required
+                                />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="lname">Last Name:</label></td>
+                            <td>
+                                <input
+                                    type="text"
+                                    id="lname"
+                                    name="lname"
+                                    placeholder="Last Name"
+                                    required
+                                />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="top">
+                                <label for="address">Address:</label>
+                            </td>
+                            <td>
+                                <textarea
+                                    id="address"
+                                    placeholder="Enter Your Address"
+                                    rows="3"
+                                    cols="46"
+                                    required
+                                ></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="mobile">Mobile Number:</label></td>
+                            <td>
+                                <input
+                                    type="number"
+                                    id="mobile"
+                                    name="mobile"
+                                    placeholder="Enter Your Mobile Number"
+                                />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email Address:</label></td>
+                            <td>
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    placeholder="Enter Your Email Address"
+                                />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Gender:</label></td>
+                            <td>
+                                <input type="radio" id="male" name="gender" />
+                                <label for="male">Male</label>
+                                <input type="radio" id="female" name="gender" />
+                                <label for="female">Female</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="top">
+                                <label for="preference"
+                                    >Product Preference:</label
+                                >
+                            </td>
+                            <td>
+                                <input
+                                    type="checkbox"
+                                    id="luxary"
+                                    name="checkbox"
+                                /><label for="luxary">Luxary</label>
+                                <input
+                                    type="checkbox"
+                                    id="electronics"
+                                    name="checkbox"
+                                /><label for="electronics">Electronics</label>
+                                <input
+                                    type="checkbox"
+                                    id="cosmetics"
+                                    name="checkbox"
+                                /><label for="cosmetics">Cosmetics</label>
+                                <input
+                                    type="checkbox"
+                                    id="furniture"
+                                    name="checkbox"
+                                /><label for="furniture">Furniture</label>
+                                <input
+                                    type="checkbox"
+                                    id="fresh"
+                                    name="checkbox"
+                                /><label for="fresh">Fresh</label>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+
+                <br />
+
+                <fieldset>
+                    <legend>Credentials</legend>
+
+                    <table border="0" cellpadding="8" cellspacing="0">
+                        <tr>
+                            <td><label for="username">Username:</label></td>
+                            <td>
+                                <input
+                                    type="text"
+                                    id="username"
+                                    name="username"
+                                    placeholder="Enter Your Username"
+                                    required
+                                />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="password">Password:</label></td>
+                            <td>
+                                <input
+                                    type="password"
+                                    id="password"
+                                    name="password"
+                                    placeholder="Enter Password"
+                                    required
+                                />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="cpassword">Confirm Password:</label>
+                            </td>
+                            <td>
+                                <input
+                                    type="password"
+                                    id="cpassword"
+                                    name="cpassword"
+                                    placeholder="Confirm Password"
+                                    required
+                                />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="submit" value="Submit" /></td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </form>
+        </div>
+
+        <h4 align="center">
+            Already Registered? <a href="21-08-2026-Login.html">Login Now!</a>
+        </h4>
+    </body>
+</html>
+```
+
+## Design a login page linking with registration form consisting of username, password, submit and reset.
+
+```html
+<html>
+    <head>
+        <title>E Commerce Website - Login</title>
+    </head>
+
+    <body>
+        <nav>
+            <table width="100%" border="0">
+                <tr>
+                    <td align="left">
+                        <a href="14-08-2026/14-08-2026.html"><h2>E Commerce Site</h2></a>
+                    </td>
+                    <td align="center">
+                        <input type="text" placeholder="Search For Items" />
+                    </td>
+                    <td align="right">
+                        <a href="21-08-2026-Login.html"
+                            ><input type="button" value="Login"
+                        /></a>
+                        <a href="21-08-2026-Register.html"
+                            ><input type="button" value="Register"
+                        /></a>
+                    </td>
+                </tr>
+            </table>
+        </nav>
+
+        <br /><br /><br />
+
+        <h2 align="center">Login</h2>
+
+        <div align="center">
+            <form>
+                <fieldset>
+                    <table border="0" cellpadding="5">
+                        <tr>
+                            <td align="right">
+                                <label for="username">Username:</label>
+                            </td>
+                            <td>
+                                <input
+                                    type="text"
+                                    id="username"
+                                    name="username"
+                                    placeholder="Enter Your Username"
+                                    required
+                                />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right">
+                                <label for="password">Password:</label>
+                            </td>
+                            <td>
+                                <input
+                                    type="password"
+                                    id="password"
+                                    name="password"
+                                    placeholder="Enter Password"
+                                    required
+                                />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td align="left">
+                                <input type="submit" value="Submit" />
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </form>
+        </div>
+
+        <h4 align="center">
+            Forgot Password? <a href="21-08-2026-Register.html">Reset Now!</a>
+        </h4>
+        <h4 align="center">
+            Not Registerd? <a href="21-08-2026-Register.html">Register Now!</a>
+        </h4>
+    </body>
+</html>
+```
