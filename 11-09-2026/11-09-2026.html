@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML5 Features</title>
+</head>
+
+<body>
+    <h1>HTML5 Features</h1>
+
+    <h2>Audio</h2>
+
+    <audio controls>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <h2>Video</h2>
+
+    <video width="400" height="250" controls>
+        <source src="video.mp4" type="video/mp4">
+    </video>
+
+
+    <h2>Iframe</h2>
+
+    <iframe src="https://spreadsheets600.buzz" width="600" height="300" title="W3Schools Website"></iframe>
+
+
+    <h2>Form Validation</h2>
+
+    <form>
+
+        <!-- Pattern Attribute -->
+        <label for="name">Name :</label>
+
+        <input type="text" id="name" name="name" placeholder="Enter your name" pattern="[a-zA-Z ]+"
+            title="Only alphabets and spaces are allowed" required>
+        <br><br>
+
+
+        <!-- Readonly -->
+        <label for="roll">Roll Number :</label>
+
+        <input type="text" id="roll" name="roll" value="101" readonly>
+        <br><br>
+
+
+        <!-- Disabled -->
+        <label for="college">College :</label>
+
+        <input type="text" id="college" name="college" value="B.Tech CSE" disabled>
+        <br><br>
+
+
+        <!-- Minimum And Maximum -->
+        <label for="age">Age :</label>
+
+        <input type="number" id="age" name="age" min="18" max="30">
+        <br><br>
+
+
+
+        <!-- Minimum And Maximum For Number -->
+        <label for="marks">Marks:</label>
+
+        <input type="number" id="marks" name="marks" min="0" max="100">
+        <br><br>
+
+
+        <!-- Pattern For Phone Number -->
+        <label for="phone">Phone Number :</label>
+
+        <input type="tel" id="phone" name="phone" placeholder="Enter 10 digit number" minlength="10 maxlength=" 10"
+            pattern="[1-9]{1}[0-9]{9}" required>
+        <br><br>
+
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+
+</html>
